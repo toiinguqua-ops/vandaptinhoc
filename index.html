@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thế giới bóng rổ NBA</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #eeeeee;
+        }
+
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #f97316;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #ea580c;
+        }
+
+        .players {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .player {
+            text-align: center;
+            background-color: #f1f5f9;
+            padding: 10px;
+        }
+
+        .player img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .players {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>THẾ GIỚI BÓNG RỔ NBA</h1>
+    <p>Khám phá những ngôi sao bóng rổ nổi tiếng</p>
+</header>
+
+<nav>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#cauthu">Cầu thủ</a>
+    <a href="#video">Video</a>
+    <a href="#nhom">Thành viên</a>
+</nav>
+
+<section id="gioithieu">
+    <h2>Giới thiệu về NBA</h2>
+    <p>
+        NBA là giải bóng rổ chuyên nghiệp nổi tiếng tại Mỹ.
+        Đây là nơi quy tụ nhiều cầu thủ tài năng trên thế giới.
+        NBA thu hút đông đảo người hâm mộ bởi những trận đấu
+        hấp dẫn và những pha ghi điểm đẹp mắt.
+    </p>
+</section>
+
+<section id="cauthu">
+    <h2>Những cầu thủ nổi tiếng</h2>
+
+    <div class="players">
+
+        <div class="player">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png">
+            <h3>LeBron James</h3>
+            <p>Los Angeles Lakers</p>
+        </div>
+
+        <div class="player">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png">
+            <h3>Stephen Curry</h3>
+            <p>Golden State Warriors</p>
+        </div>
+
+        <div class="player">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/203999.png">
+            <h3>Nikola Jokic</h3>
+            <p>Denver Nuggets</p>
+        </div>
+
+        <div class="player">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png">
+            <h3>Luka Doncic</h3>
+            <p>Los Angeles Lakers</p>
+        </div>
+
+        <div class="player">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/203507.png">
+            <h3>Giannis Antetokounmpo</h3>
+            <p>Milwaukee Bucks</p>
+        </div>
+
+        <div class="player">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1628983.png">
+            <h3>Shai Gilgeous-Alexander</h3>
+            <p>Oklahoma City Thunder</p>
+        </div>
+
+        <div class="player">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png">
+            <h3>Jayson Tatum</h3>
+            <p>Boston Celtics</p>
+        </div>
+
+        <div class="player">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1630162.png">
+            <h3>Anthony Edwards</h3>
+            <p>Minnesota Timberwolves</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Một số kiến thức về bóng rổ</h2>
+    <ul>
+        <li>Mỗi đội có 5 cầu thủ thi đấu trên sân.</li>
+        <li>Một trận NBA gồm 4 hiệp.</li>
+        <li>Ném phạt được tính 1 điểm.</li>
+        <li>Ném rổ thông thường được tính 2 điểm.</li>
+        <li>Ném ngoài vạch 3 điểm được tính 3 điểm.</li>
+    </ul>
+</section>
+
+<section id="video">
+    <h2>Video bóng rổ NBA</h2>
+
+    <h3>Video 1</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZFc06b1cARA?si=fEw5p_QZN6HhutlC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h3>Video 2</h3>
+    <iframe
+        src="https://www.youtube.com/embed/PEfaE5AS7XM"
+        title="NBA Video 2"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</section>
+
+<section id="nhom">
+    <h2>Thành viên thực hiện</h2>
+    <p>1. Nguyễn Hoàng Minh</p>
+    <p>2. Nguyễn Thành Long</p>
+    <p>3. Trần Phạm Khánh</p>
+    <p>4. Phan Xuân Hải Đăng</p>
+</section>
+
+<footer>
+    <p>Website bóng rổ NBA - Tin học 12</p>
+</footer>
+
+</body>
+</html>
